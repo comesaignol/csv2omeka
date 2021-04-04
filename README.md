@@ -17,7 +17,7 @@ Soit un tableau décrivant trois œuvres littéraires et le nombre de page assoc
 | Racine         | Bérénice           | 2    |
 | Racine         | Bérénice           | 3    |
 
-L’import dans OMEKA nécessite que les données de la colonne « PAGE », pivote et soit sur la même ligne.
+L’import dans OMEKA nécessite que les données de la colonne « PAGE » pivotent et soient sur la même ligne.
 
 | AUTEUR         | OEUVRE             | PAGE | PAGE | PAGE |
 |----------------|--------------------|------|------|------|
@@ -44,11 +44,11 @@ Pour installer les librairies manquantes :
 
 ## Usage
 
-Le fichier param.py comporte plusieurs paramètres à configurer suivant les besoins du projet :
+Le fichier « param.py » comporte plusieurs paramètres à configurer suivant les besoins du projet :
 
 * « pathInput » qui fournit le chemin du fichier d’entrée. L’outil comporte par défaut un répertoire « input ».
 * « separatorInput » qui définie le séparateur du fichier CSV en entrée. La valeur par défaut est la virgule.
-* « colVar » qui indique le numéro de la colonne variable. Dans le fichier de « test.csv », il s’agit de la colonne numéro 3.
+* « colVar » qui indique le numéro de la colonne variable. Dans le fichier « test.csv », il s’agit de la colonne numéro 3.
 * « pathOutput » qui fournit le chemin du fichier de sortie. L’outil crée par défaut un répertoire « output » pour l’accueillir.
 * « separatorOutput » qui définie le séparateur du fichier CSV en sortie. La valeur par défaut est la virgule.
 
