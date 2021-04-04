@@ -16,6 +16,7 @@ Soit un tableau décrivant trois œuvres littéraires et le nombre de page assoc
 | Racine         | Bérénice           | 1    |
 | Racine         | Bérénice           | 2    |
 | Racine         | Bérénice           | 3    |
+
 L’import dans OMEKA nécessite que les données de la colonne « PAGE », pivote et soit sur la même ligne.
 
 | AUTEUR         | OEUVRE             | PAGE | PAGE | PAGE |
@@ -23,6 +24,7 @@ L’import dans OMEKA nécessite que les données de la colonne « PAGE », 
 | Edmond Rostand | Cyrano de Bergerac | 1 | 2 | 3 |
 | Molière        | Le Misanthrope     | 1 | 2 |   |
 | Racine         | Bérénice           | 1 | 2 | 3 |
+
 csv2omeka réalise cette conversion et ce quel que soit le nombre de « colonne fixe », ici les métadonnées « AUTEUR » et « OEUVRE ».
 
 ## Installation
