@@ -29,18 +29,17 @@ csv2omeka réalise cette conversion et ce quel que soit le nombre de « colonn
 
 ## Installation
 
-csv2omeka nécessite une installation Python 3 avec les librairies suivantes : os ; shutil ; pandas et numpy.
+csv2omeka nécessite une installation Python 3 avec la version 1.2.3 du package Pandas.
 
-Pour vérifier les librairies installées :
+Pour vérifier les packages installées :
     
     pip freeze
 
-Pour installer les librairies manquantes :
+Pour installer les packages manquants :
 
-    pip install os
-    pip install shutil
-    pip install pandas
-    pip install numpy
+    pip install -r path\\to\requirements.txt
+    
+avec le chemin correspondant au fichier requirements.txt présent dans cet outil.
 
 ## Usage
 
